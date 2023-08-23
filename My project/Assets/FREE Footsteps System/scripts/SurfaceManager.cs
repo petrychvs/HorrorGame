@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 
+
 [System.Serializable]
 public struct SurfaceDefinition {
 	public string name;
 	public AudioClip[] footsteps;
+	
 }
 
 [System.Serializable]

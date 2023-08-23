@@ -364,6 +364,10 @@
 "Assets/FREE Footsteps System/scripts/SurfaceManager.cs"
 "Assets/FREE Footsteps System/scripts/TopDownController.cs"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/ModularFirstPersonController/Flasing/Batter.cs"
+"Assets/ModularFirstPersonController/Flasing/Batter12.cs"
+"Assets/ModularFirstPersonController/Flasing/batterplaers.cs"
+"Assets/ModularFirstPersonController/Flasing/Fonarik.cs"
 -langversion:9.0
 
 /deterministic

@@ -7,6 +7,7 @@
 // DISCLAIMER : THIS SCRIPT CAN BE USED IN ANY WAY, MENTIONING MY WORK WILL BE GREATLY APPRECIATED BUT NOT REQUIRED.
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Footsteps {
 
@@ -39,6 +40,7 @@ namespace Footsteps {
 		// Random volume between this limits
 		[SerializeField] float minVolume = 0.3f;
 		[SerializeField] float maxVolume = 0.5f;
+	
 
 		[Tooltip("If this is enabled, you can see how far the script will check for ground, and the radius of the check.")]
 		[SerializeField] bool debugMode = true;
@@ -61,6 +63,8 @@ namespace Footsteps {
 		float lastPlayTime;
 		bool previouslyGrounded;
 		bool isGrounded;
+		
+		
 
 
 		void Start() {
