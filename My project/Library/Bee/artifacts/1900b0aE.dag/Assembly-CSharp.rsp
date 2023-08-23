@@ -368,6 +368,7 @@
 "Assets/ModularFirstPersonController/Flasing/Batter12.cs"
 "Assets/ModularFirstPersonController/Flasing/batterplaers.cs"
 "Assets/ModularFirstPersonController/Flasing/Fonarik.cs"
+"Assets/Rusty Flashlight/Scripts/FlashlightToggle.cs"
 -langversion:9.0
 
 /deterministic
