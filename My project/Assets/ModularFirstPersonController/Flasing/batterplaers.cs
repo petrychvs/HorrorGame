@@ -10,6 +10,8 @@ public class batterplaers : MonoBehaviour {
 	public float batter1 = 0f;
 	public Fonarik light;
 	
+	public AudioClip reloadFonar;
+	
 	public GameObject lightObject;
 
 	// Use this for initialization
@@ -19,10 +21,12 @@ public class batterplaers : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Batter.text = "" + batter1;
+		Batter.text = "Battery: " + batter1;
 		if (Input.GetKeyDown (KeyCode.R)&batter1>0f) {
 			light.Energy += 25;
 			batter1 = batter1 - 1f;
+			
+			GetComponent<AudioSource>().PlayOneShot(reloadFonar);
 			
 			
 		}
